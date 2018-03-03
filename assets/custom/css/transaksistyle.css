@@ -1,0 +1,99 @@
+.home-page{
+    background-color: #004f84;
+
+}
+h1,h2,h3,h4,h5{
+    color: white;
+}
+label{
+    color: white;
+}
+.nama-barang{
+    font-size: 60px;
+}
+.harga-barang{
+    font-size: 80px;
+}
+.tombol{
+    height: 200px;
+    width: 200px;
+    color: white;
+    padding: 2rem;
+    margin: 4px;
+    float: left;
+}
+.center_div{
+    margin: 0 auto;
+    width: 100%;
+    /*width:50% !* value of your choice which suits your alignment *!*/
+}
+/******************************************************
+	RAISED BUTTONS
+******************************************************/
+
+.tombol.raised {
+    box-shadow: 0 8px 0 0 #007299;
+}
+.tombol:hover{
+    filter: brightness(110%);
+}
+a:visited,a:hover,a{
+    color: white;
+    text-decoration: none;
+}
+.tombol.cek-harga.raised:active {
+    background: #2078A4;
+    box-shadow: none;
+    margin-bottom: -8px;
+    margin-top: 12px;
+}
+.tombol.transaksi.raised:active {
+    background: #BF4B19;
+    box-shadow: none;
+    margin-bottom: -8px;
+    margin-top: 12px;
+}
+.tombol.login.raised:active{
+    background: #377901;
+    box-shadow: none;
+    margin-bottom: -8px;
+    margin-top: 12px;
+}
+
+.row{
+    padding-top: auto;
+}
+.main-content{
+    margin-top: 20px;
+}
+.cek-harga{
+    background-color: #2A9ED9;
+}
+.transaksi{
+    background-color: #EB5B1C;
+}
+.login{
+    background-color: #49A100;
+}
+input,button,.input-group-addon{
+    border-radius: 0 !important;
+}
+form{
+    margin-top: 40px;
+}
+
+.col-centered{
+    float: none;
+    margin: 0 auto;
+}
+.list-inline{
+    margin: 0px;
+    padding: 0px;}
+
+table{
+    background-color: white;
+    height: 250px;
+}
+table tr:hover{
+    background-color: #3fc3ee;
+}
